@@ -626,6 +626,50 @@ video {
   top: -0.5rem;
 }
 
+.top-8 {
+  top: 2rem;
+}
+
+.-top-12 {
+  top: -3rem;
+}
+
+.-top-14 {
+  top: -3.5rem;
+}
+
+.-left-14 {
+  left: -3.5rem;
+}
+
+.-top-20 {
+  top: -5rem;
+}
+
+.-top-24 {
+  top: -6rem;
+}
+
+.-left-10 {
+  left: -2.5rem;
+}
+
+.-left-16 {
+  left: -4rem;
+}
+
+.-left-20 {
+  left: -5rem;
+}
+
+.-left-24 {
+  left: -6rem;
+}
+
+.z-10 {
+  z-index: 10;
+}
+
 .row-span-1 {
   grid-row: span 1 / span 1;
 }
@@ -910,6 +954,10 @@ video {
 
 .gap-7 {
   gap: 1.75rem;
+}
+
+.gap-12 {
+  gap: 3rem;
 }
 
 .rounded-lg {
@@ -1250,6 +1298,18 @@ video {
   opacity: 0.1;
 }
 
+.opacity-5 {
+  opacity: 0.05;
+}
+
+.opacity-40 {
+  opacity: 0.4;
+}
+
+.opacity-100 {
+  opacity: 1;
+}
+
 .shadow-2xl {
   --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
   --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
@@ -1263,6 +1323,10 @@ video {
 
   .md\:top-72 {
     top: 18rem;
+  }
+
+  .md\:-left-24 {
+    left: -6rem;
   }
 
   .md\:mt-12 {
@@ -1317,6 +1381,14 @@ video {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .md\:items-center {
+    align-items: center;
+  }
+
+  .md\:justify-center {
+    justify-content: center;
+  }
+
   .md\:gap-10 {
     gap: 2.5rem;
   }
@@ -1327,6 +1399,10 @@ video {
 
   .md\:gap-12 {
     gap: 3rem;
+  }
+
+  .md\:gap-40 {
+    gap: 10rem;
   }
 
   .md\:px-7 {
