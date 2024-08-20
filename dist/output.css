@@ -598,6 +598,34 @@ video {
   left: -2rem;
 }
 
+.-top-9 {
+  top: -2.25rem;
+}
+
+.-left-7 {
+  left: -1.75rem;
+}
+
+.-left-6 {
+  left: -1.5rem;
+}
+
+.-top-8 {
+  top: -2rem;
+}
+
+.-top-7 {
+  top: -1.75rem;
+}
+
+.-top-4 {
+  top: -1rem;
+}
+
+.-top-2 {
+  top: -0.5rem;
+}
+
 .row-span-1 {
   grid-row: span 1 / span 1;
 }
@@ -667,6 +695,14 @@ video {
   margin-top: 3rem;
 }
 
+.mb-7 {
+  margin-bottom: 1.75rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -733,6 +769,38 @@ video {
 
 .h-\[150px\] {
   height: 150px;
+}
+
+.h-8 {
+  height: 2rem;
+}
+
+.h-\[800px\] {
+  height: 800px;
+}
+
+.h-\[px\] {
+  height: px;
+}
+
+.h-\[7px\] {
+  height: 7px;
+}
+
+.h-\[750px\] {
+  height: 750px;
+}
+
+.h-\[200px\] {
+  height: 200px;
+}
+
+.h-\[20px\] {
+  height: 20px;
+}
+
+.h-\[210px\] {
+  height: 210px;
 }
 
 .w-32 {
@@ -1008,6 +1076,14 @@ video {
   padding: 1.25rem;
 }
 
+.p-8 {
+  padding: 2rem;
+}
+
+.p-10 {
+  padding: 2.5rem;
+}
+
 .px-16 {
   padding-left: 4rem;
   padding-right: 4rem;
@@ -1016,6 +1092,16 @@ video {
 .px-7 {
   padding-left: 1.75rem;
   padding-right: 1.75rem;
+}
+
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 
 .pb-4 {
@@ -1056,6 +1142,10 @@ video {
 
 .pb-7 {
   padding-bottom: 1.75rem;
+}
+
+.pt-10 {
+  padding-top: 2.5rem;
 }
 
 .text-center {
@@ -1151,6 +1241,11 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-red-500 {
+  --tw-text-opacity: 1;
+  color: rgb(239 68 68 / var(--tw-text-opacity));
+}
+
 .opacity-10 {
   opacity: 0.1;
 }
@@ -1202,6 +1297,14 @@ video {
     height: 20rem;
   }
 
+  .md\:h-\[\] {
+    height: ;
+  }
+
+  .md\:h-\[650px\] {
+    height: 650px;
+  }
+
   .md\:w-1\/2 {
     width: 50%;
   }
@@ -1224,6 +1327,16 @@ video {
 
   .md\:gap-12 {
     gap: 3rem;
+  }
+
+  .md\:px-7 {
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+  }
+
+  .md\:py-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 
   .md\:text-5xl {
@@ -1277,5 +1390,10 @@ video {
   .lg\:px-28 {
     padding-left: 7rem;
     padding-right: 7rem;
+  }
+
+  .lg\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
   }
 }
